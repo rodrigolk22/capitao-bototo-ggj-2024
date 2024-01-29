@@ -410,7 +410,9 @@ label garden:
     
     fe "Achei um binóculos! Vou olhar pela janela!"
     
-    fe "hmmmm achei um texto inscrito numa pedra."
+    play sound "feroz/huummmm achei um tex.mp3"
+    
+    fe "huummmm achei um texto inscrito numa pedra."
     
     play sound "bototo/O que diz .mp3"
     
@@ -466,9 +468,15 @@ label roof:
     
     cp "Sim. As coisas estão muito estranhas. Só quero ir pra casa."
     
+    play sound "wesley/Bom eu tenho uma cor.mp3"
+    
     we "Bom eu tenho uma corda de fuga, mas eu estou numa missão agora e não posso emprestar agora."
     
+    play sound "wesley/Preciso de ajuda Ten.mp3"
+    
     we "Preciso de ajuda. Tenho que arremessar várias pétalas de flores em um casal que está la embaixo."
+    
+    play sound "wesley/O problema é que não.mp3"
     
     we "O problema é que não enxergo bem eles daqui. Poderiam me ajudar a encontrar?"
     
@@ -478,15 +486,23 @@ label roof:
     
     "Wesley Sniper empresta o binóculos e acha o casal."
     
+    play sound "wesley/Ótimo Achei eles .mp3"
+    
     we "Ótimo! Achei eles!"
     
+    play sound "wesley/Porém tem mais um co.mp3"
+    
     we "Porém tem mais um coisa que estava esquecendo... antes de jogar as pétalas, era para eu começar a cantar uma música."
+    
+    play sound "wesley/Problema que não lem.mp3"
     
     we "Problema que não lembro a canção."
     
     play sound "bototo/Hmmm Yo no sé .mp3"
     
     cp "Hmmm... Yo no sé?"
+    
+    play sound "wesley/Isso Era esse o nome.mp3"
     
     we "Isso! Era esse o nome dela!"
     
@@ -497,9 +513,13 @@ label roof:
     
     es "Minha prima Catrina Caveira falava muito dessa música."
     
+    play sound "wesley/Certo agora sim temo.mp3"
+    
     we "Certo agora sim, temos tudo pronto!"
     
     "Wesley Sniper joga as pétalas de flores."
+    
+    play sound "wesley/Ok pessoal vamos des.mp3"
     
     we "Ok pessoal vamos descer!"
     
@@ -527,9 +547,15 @@ label final:
     show casal at right
     with dissolve
     
+    play sound "rapaz/Muito obrigado Conqu.mp3"
+    
     ra "Muito obrigado! Conquistei o coração da minha amada!"
     
+    play sound "rapaz/Ela até topou em se .mp3"
+    
     ra "Ela até topou em se mudar comigo. Vou avisar minha família la de Minas!"
+    
+    play sound "rapaz/Qualquer hora vão lá.mp3"
     
     ra "Qualquer hora vão lá me visitar! Juiz de Fora é uma cidade boa dimais!"
     
@@ -544,6 +570,18 @@ label final:
     "Solução: música romântica"
     
     scene title
+    
+    "Fim do jogo"
+    
+    "Jogo desenvolvido por Rodrigo Luiz Kovalski aka redproxy. Global Game Jam 2024"
+    
+    "Plataforma de desenvolvimento: RenPy,
+    Sons dos personagens: Narraket,
+    Músicas de fundo: bgm by RpgMakerMV"
+    
+    "Musica final: Will Ferrell - Yo No Se - Music Video from Casa De Mi Padre,
+    Imagens dos personagens: criados com stabble diffusion,
+    Fundos: 109-visual-novel-backgrounds by LisadiKaprio.itch.io"
     
     "Obrigado por jogar!"
     
